@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.xmwy.aop_master.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_yao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="摇一摇"
+        />
+    <Button
+        android:id="@+id/btn_touch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点一点"
+        />
+    <Button
+        android:id="@+id/btn_voice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="语音消息"
+        />
+    <Button
+        android:id="@+id/btn_vedio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="视频消息"
+        />
+
+
+</LinearLayout>
